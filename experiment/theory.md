@@ -26,7 +26,9 @@ Fig.1: A simple Neuron Network model
 &nbsp;
 
 ***• Input Layer Neurons*** receive the input information (usually numeric representations of text, image, audio and others types of data), process it through a mathematical function (activation function) and "send" an output to the next layer's neurons based in conditions. On the way to other layer's neurons, that data is multiplied by preset weights (placed in the graphical lines linking one neuron to the others).
+
 ***•	Hidden layer neurons*** receive inputs from the input layers or by the previous hidden layer, pass them through new functions and send the result to the next layer neurons. Again, the data here is typically multiplied by weights on the way.
+
 ***•	Output layer neurons*** receive inputs from previous layers, process them through new functions and outputs the expected results. The results could be simple binary classifications (0 or 1, yes or no, black or white, dog or not dog), multiple choice classifications (e.i.: cat, dog or wolf), numeric predictions, matrices and so on. Depending on the type of Artificial Neural Network, this output could be used as a final result, or as an output to a new loop over the same or another neural net.
 An artificial neuron may only pass an output signal on to the next layer if its inputs (which are actually voltages) sum to a value above some particular threshold value. Because activation functions can either be linear or non-linear, neurons will often have a wide range of convergence and divergence. Divergence is the ability for one neuron to communicate with many other neurons in the network and convergence is the ability for one neuron to receive input from many other neurons in the network. 
 Neural networks rely on training data to learn and improve their accuracy over time. However, once these learning algorithms are fine-tuned for accuracy, they are powerful tools in computer science and artificial intelligence, allowing us to classify and cluster data at a high velocity. Tasks in speech recognition or image recognition can take minutes versus hours when compared to the manual identification by human experts. One of the most well-known neural networks is Google’s search algorithm.
@@ -47,7 +49,6 @@ Cm, gl , ge and gi are the membrane capacitance, the leakage conductance and the
 &nbsp;
 <center><img src="images/ntwrk4.png" title="" /></center>
 &nbsp;
-
 The parameter b is responsible for spike-triggered adaptation. Due to the sharp rise, created by the exponential term in equation 1, the exact value of Θ is not critical for the determination of the moment of a spike
 The single compartment AdEx model can reproduce electrophysiological features like spike-frequency adaptation ,regular and fast spiking, phasic spiking ,phasic and tonic bursting, post-inhibitory spiking and bursting, delayed spike initiation and delayed burst initiation, damped oscillations, overshoot or undershoot of the voltage in response to a subthreshold current step , type I and type II excitability(Fig.2)
 
